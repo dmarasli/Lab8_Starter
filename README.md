@@ -11,7 +11,8 @@ no -- it would be unnnecessary to test the whole workflow. Unit test would be en
 
 3. Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
 
-No, I would be partial to not using unit tests as sending messages has the potential to deal with computer networks, which would make testing it quite difficult.
+No, I would be partial to not using unit tests as sending messages has the potential to deal with computer networks, which would make testing it quite difficult. unit test would not be enough since it uses more than one function and their correlation needs to be checked. 
+
 
 4. Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.
 
